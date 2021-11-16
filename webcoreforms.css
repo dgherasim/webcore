@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* GHL Form Style - The Marketer's Toolkit */
+:root { /* this overrides the default colors in the base css */
+  --form-font-family: 'Poppins', sans-serif;
+  --form-main-bg: transparent;
+  --form-main-border: transparent
+  --form-label-color: #fff;
+  --form-placeholder-color: #fff;
+  --form-input-color: #fff;
+  --form-input-border: #e2e2e2;
+  --form-input-bg: transparent;
+  --form-error-color: #ff072a;
+  --form-error-border: #fff;
+  --dropdown-option-color: #ffffff;
+  --dropdown-option-bg: #2962ff;
+  --dropdown-option-hover-color: #ffffff;
+  --dropdown-option-hover-bg: #136ee4;
+  --radio-button-color: #fff;
+  --radio-button-border: #e5e5e5;
+  --radio-button-bg: transparent;
+  --radio-button-active-color: #2962ff;
+  --radio-button-active-border: #2962ff;
+  --radio-button-active-bg: transparent;
+  --radio-button-icon-color: #ffffff;
+  --radio-button-icon-border: #2962ff;
+  --radio-button-icon-bg: #2962ff;
+  --checkbox-border: #2962ff;
+  --checkbox-bg: transparent;
+  --checkbox-active-color: #2962ff;
+  --checkbox-active-border: #2962ff;
+  --checkbox-active-bg: transparent;
+  --calendar-header-bg-tone: #f5f5f5
+  --calendar-body-bg-tone: #ffffff;
+  --calendar-border-tone: #2962ff;
+  --calendar-color-tone: #2962ff;
+  --calendar-active-color-tone: #ffffff;
+  --calendar-active-bg-tone: #2962ff;
+  --button-color: #002a34;
+  --button-border: #002a34;
+  --button-bg: #fff;
+  --button-active-color: #002a34;
+  --button-active-border: #002a34;
+  --button-active-bg: #fff;
+}
+
+/* JS Custom Styles */
+#_builder-form.form-builder--wrap .menu-field-wrap.csp-colm {
+    display: block;
+    width: 100%;
+    max-width: 33.3%;
+}
+#_builder-form.form-builder--wrap .menu-field-wrap.csp-colm.colm-5 {
+    max-width: 50%;
+}
+#_builder-form.form-builder--wrap .menu-field-wrap.csp-colm.colm-6 {
+    max-width: 60%;
+}
+#_builder-form.form-builder--wrap .menu-field-wrap.csp-colm.colm-2 {
+    max-width: 15%;
+}
+#_builder-form.form-builder--wrap .menu-field-wrap.csp-colm.colm-3 {
+    max-width: 25%;
+}
+
+
+/* Main Styles */
+#_builder-form * {
+	font-family: var(--form-font-family);
+}
+#_builder-form, #_builder-form.form-builder--wrap {
+    padding: 25px 25px 25px 25px !important;
+    background: var(--form-main-bg) !important;
+    border: 1px solid var(--form-main-border) !important;
+}
+#_builder-form.form-builder--wrap .fields-container {
+    margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	background-color: transparent !important;
+	border-radius: 5px;
+	box-shadow: none;
+}
+#_builder-form.form-builder--wrap .form-builder--item {
+    margin-bottom: 10px !important;
+    padding: 0 5px !important;
+}
+#_builder-form, .form-builder--item.opt-icon {
+    position: relative;
+}
+#_builder-form.form-builder--wrap .error {
+    position: relative;
+    color: var(--form-error-color) !important;
+}
+#_builder-form.form-builder--wrap input[aria-invalid="true"].form-control {
+    border-color: var(--form-error-border) !important;
+}
+#_builder-form.form-builder--wrap .h1 {
+    display: block;
+    margin-bottom: 15px;
+}
+.c-form.c-wrapper #_builder-form label,
+#_builder-form.form-builder--wrap .form-builder--item label {
+    color: var(--form-label-color) !important;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+}
+#_builder-form.form-builder--wrap .form-control {
+    padding: 13px 15px !important;
+    background-color: var(--form-input-bg);
+    border-width: 1px 1px 1px 1px;
+    border-radius: 3px;
+    color: var(--form-input-color) !important;
+    border-style: solid;
+    border-color: var(--form-input-border);
+}
+#_builder-form.form-builder--wrap .countryphone {
+    padding: 10px 10px 10px 52px !important;
+    background-color: var(--form-input-bg);
+    border-width: 1px 1px 1px 1px;
+    border-radius: 3px;
+    color: var(--form-input-color) !important;
+    border-style: solid;
+    border-color: var(--form-input-border);
+}
+#_builder-form.form-builder--wrap textarea.form-control {
+    padding: 13px 15px 13px 15px !important;
+}
+#_builder-form.form-builder--wrap .form-control:focus {
+    background-color: var(--form-input-bg) !important;
+}
+#_builder-form.form-builder--wrap .form-control::placeholder {
+  color: var(--form-placeholder-color) !important;
+  opacity: 1 !important;
+}
+#_builder-form.form-builder--wrap .form-control:-ms-input-placeholder {
+  color: var(--form-placeholder-color) !important;
+  opacity: 1 !important;
+}
+#_builder-form.form-builder--wrap .form-control::-ms-input-placeholder {
+  color: var(--form-placeholder-color) !important;
+  opacity: 1 !important;
+}
+#_builder-form.form-builder--wrap .date-picker-custom-style input[type="text"]::placeholder {
+  color: var(--form-placeholder-color) !important;
+  opacity: 1 !important;
+}
+#_builder-form.form-builder--wrap .date-picker-custom-style input[type="text"]:-ms-input-placeholder {
+  color: var(--form-placeholder-color) !important;
+  opacity: 1 !important;
+}
+#_builder-form.form-builder--wrap .date-picker-custom-style input[type="text"]::-ms-input-placeholder {
+  color: var(--form-placeholder-color) !important;
+  opacity: 1 !important;
+}
+#_builder-form.form-builder--wrap .form-builder--item .option-radio {
+    display: inline-block !important;
+    vertical-align: top !important;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 50%;
+    padding: 0 5px 0 0;
+    box-sizing: border-box;
+}
+#_builder-form.form-builder--wrap .form-builder--item .option-radio:nth-child(2n) {
+    padding: 0px 0px 0px 5px;
+}
+#_builder-form.form-builder--wrap .form-builder--item .option-radio label {
+    position: relative;
+    display: block !important;
+    padding: 10px 12px 10px 35px !important;
+    font-size: 14px;
+    line-height: 1.5em;
+    border-radius: 5px;
+    border: 1px solid var(--radio-button-border);
+    color: var(--radio-button-color) !important;
+    background-color: var(--radio-button-bg) !important;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -mx-transition: all 0.2s ease;
+}
+.c-form.c-wrapper #_builder-form .form-builder--item .option-radio label.checked,
+.c-form.c-wrapper #_builder-form .form-builder--item .option-radio label:hover,
+.c-form.c-wrapper #_builder-form .form-builder--item .option-radio label:focus,
+.c-form.c-wrapper #_builder-form .form-builder--item .option-radio label:active,
+#_builder-form.form-builder--wrap .form-builder--item .option-radio label.checked,
+#_builder-form.form-builder--wrap .form-builder--item .option-radio label:hover,
+#_builder-form.form-builder--wrap .form-builder--item .option-radio label:focus,
+#_builder-form.form-builder--wrap .form-builder--item .option-radio label:active {
+    border: 1px solid var(--radio-button-active-border);
+    background-color: var(--radio-button-active-bg);
+    color: var(--radio-button-active-color) !important;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -mx-transition: all 0.2s ease;
+}
+#_builder-form.form-builder--wrap .form-builder--item .option-radio label::before {
+    border: 1px solid var(--radio-button-border);
+    top: 11px;
+    left: 8px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -mx-transition: all 0.2s ease;
+}
+#_builder-form .form-builder--item .option-radio input[type="radio"]:checked + label::after {
+    top: 11px !important;
+    left: 8px !important;
+    border-color: var(--radio-button-icon-border);
+    background-color: var(--radio-button-icon-bg);
+    color: var(--radio-button-icon-color);
+}
+
+/* Checkbox */
+#_builder-form.form-builder--wrap .form-builder--item .option label::before {
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    border: 1px solid var(--checkbox-border);
+    background-color: var(--checkbox-bg);
+    border-radius: 30px;
+}
+#_builder-form.form-builder--wrap .form-builder--item .option label {
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-bottom: 3px;
+}
+#_builder-form.form-builder--wrap .form-builder--item .option input[type="checkbox"]:checked + label::after {
+    content: "\e96c";
+    font-family: Magicons;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    top: 5px;
+    left: 0;
+    border-radius: 30px;
+    color: var(--checkbox-active-color);
+    background-color: var(--checkbox-active-bg);
+    border: 1px solid var(--checkbox-active-border);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -mx-transition: all 0.2s ease;
+}
+
+/* Date field */
+#_builder-form.form-builder--wrap .date-picker-custom-style {
+    background: transparent !important;
+    border: none;
+    padding: 0px;
+}
+#_builder-form.form-builder--wrap .date-picker-custom-style input[type="text"] {
+    padding: 10px 15px;
+    border: 1px solid var(--form-input-border);
+    border-radius: 3px;
+    background-color: var(--form-input-bg);
+    color: var(--form-input-color) !important;
+}
+#_builder-form.form-builder--wrap .vdpInnerWrap th {
+    padding: 0px 3px;
+}
+#_builder-form .vdpInnerWrap * {
+    color: var(--calendar-color-tone) !important;
+}
+#_builder-form .vdpInnerWrap .vdpHeader {
+    background-color: var(--calendar-header-bg-tone) !important;
+}
+#_builder-form .vdpOuterWrap,
+#_builder-form .vdpInnerWrap {
+    background-color: var(--calendar-body-bg-tone) !important;
+}
+#_builder-form.form-builder--wrap .vdpArrowPrev::after {
+    border-right-color: var(--calendar-border-tone);
+}
+#_builder-form.form-builder--wrap .vdpArrowNext::after {
+    border-left-color: var(--calendar-border-tone);
+}
+#_builder-form.form-builder--wrap .vdpCell.selectable:hover .vdpCellContent {
+    background: var(--calendar-active-bg-tone) !important;
+    color: var(--calendar-active-color-tone) !important;
+}
+#_builder-form.form-builder--wrap .selectable .vdpCellContent {
+    color: var(--calendar-color-tone) !important;
+}
+
+/* Dropdown field */
+#_builder-form.form-builder--wrap .multiselect__tags {
+    border: none;
+    background-color: var(--form-input-bg);
+    font-size: 14px;
+    border: 1px solid var(--form-input-border);
+    border-radius: 3px;
+}
+#_builder-form.form-builder--wrap .multiselect__input {
+    color: var(--form-input-color) !important;
+    background-color: var(--form-input-bg) !important;
+    border: none !important;
+}
+#_builder-form.form-builder--wrap .multi_select_form .multiselect__placeholder {
+    padding: 5px 39px 10px 5px !important;
+    color: var(--form-placeholder-color) !important;
+}
+#_builder-form.form-builder--wrap .multiselect__content-wrapper {
+    border-radius: 0;
+}
+#_builder-form.form-builder--wrap .multi_select_form .multiselect__option, .multi_select_form .multiselect__single {
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+    color: var(--form-input-color);
+    border-radius: 3px;
+}
+.multi_select_form .multiselect__single {
+    background-color: transparent !important;
+}
+#_builder-form.form-builder--wrap .multiselect__option--selected {
+    background: transparent;
+    font-weight: 400;
+}
+#_builder-form.form-builder--wrap .multi_select_form .multiselect__option--highlight:hover {
+    background-color: var(--dropdown-option-hover-bg) !important;
+    color: var(--dropdown-option-hover-color) !important;
+}
+#_builder-form.form-builder--wrap .multi_select_form .multiselect__option--highlight, 
+#_builder-form.form-builder--wrap .multi_select_form .multiselect__option--selected.multiselect__option--highlight {
+    background: var(--dropdown-option-bg) !important;
+    color: var(--dropdown-option-color) !important;
+}
+#_builder-form.form-builder--wrap .multiselect__tag {
+    padding: 5px 26px 7px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    background: var(--dropdown-option-bg);
+}
+#_builder-form.form-builder--wrap .multiselect__tag-icon:focus, .multiselect__tag-icon:hover, .multiselect__tag-icon:active {
+    background: transparent;
+}
+#_builder-form.form-builder--wrap .multiselect__tag-icon::after {
+    color: var(--dropdown-option-color);
+}
+
+/* Button field */
+.btn.btn-dark {
+    background: var(--button-bg) !important;
+    color: var(--button-color) !important;
+    border: 2px solid var(--button-border) !important;
+    font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+    padding: 13px 50px 13px 30px !important;
+    border-radius: 0 !important;
+    transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-mx-transition: all 0.2s ease;
+}
+.btn.btn-dark:hover, .btn.btn-dark:focus, .btn.btn-dark:active {
+    background: var(--button-active-bg) !important;
+    color: var(--button-active-color) !important;
+    border: 2px solid var(--button-active-border) !important;
+    transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-mx-transition: all 0.2s ease;
+}
+.iti__arrow {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid #fff;
+}
+.iti__arrow--up {
+    border-top: none;
+    border-bottom: 4px solid #fff
+}
+.iti input::placeholder {
+    color: #fff !important;
+}
+
+
+/* Form animation */
+
+/*.btn.btn-dark:hover {
+	-webkit-animation: heartbeat 2s ease-in-out 0s infinite both;
+	        animation: heartbeat 2s ease-in-out 0s infinite both;
+}*/
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+/* Popup responsive */
+#_builder-form.small, #_builder-form.small.form-builder--wrap {
+    padding: 5px 5px 5px 5px;
+}
+.c-form.c-wrapper #_builder-form.small.form-builder--wrap label, #_builder-form.small.form-builder--wrap .form-builder--item label {
+    font-size: 14px;
+    line-height: 23px;
+}
+#_builder-form.small.form-builder--wrap .form-builder--item .option-radio {
+    display: block !important;
+    max-width: 100%;
+    padding: 0 !important;
+}
+#_builder-form.form-builder--wrap.small .menu-field-wrap.csp-colm {
+    max-width: 100% !important;
+}
+#_builder-form.form-builder--wrap.small .menu-field-wrap.csp-colm.colm-5 {
+    max-width: 100% !important;
+}
+#_builder-form.form-builder--wrap.small .menu-field-wrap.csp-colm.colm-6 {
+    max-width: 100% !important;
+}
+#_builder-form.form-builder--wrap.small .menu-field-wrap.csp-colm.colm-2 {
+    max-width: 50% !important;
+}
+#_builder-form.form-builder--wrap.small .menu-field-wrap.csp-colm.colm-3 {
+    max-width: 50% !important;
+}
+
+/* Responsive */
+@media only screen and (max-width: 767px){
+    #_builder-form, #_builder-form.form-builder--wrap {
+        padding: 5px 5px 5px 5px;
+    }
+    .c-form.c-wrapper #_builder-form.form-builder--wrap label, #_builder-form.form-builder--wrap .form-builder--item label {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    #_builder-form.form-builder--wrap .form-builder--item .option-radio {
+        display: block !important;
+        max-width: 100%;
+        padding: 0;
+    }
+    #_builder-form.form-builder--wrap .form-builder--item .option-radio:nth-child(2n) {
+        padding: 0;
+    }
+    #_builder-form.form-builder--wrap .menu-field-wrap.csp-colm {
+        max-width: 100% !important;
+    }
+    #_builder-form.form-builder--wrap .menu-field-wrap.csp-colm.colm-5 {
+        max-width: 100% !important;
+    }
+    #_builder-form.form-builder--wrap .menu-field-wrap.csp-colm.colm-6 {
+        max-width: 100% !important;
+    }
+    #_builder-form.form-builder--wrap .menu-field-wrap.csp-colm.colm-2 {
+        max-width: 50% !important;
+    }
+    #_builder-form.form-builder--wrap .menu-field-wrap.csp-colm.colm-3 {
+        max-width: 50% !important;
+    }
+}
