@@ -345,34 +345,6 @@
     color: var(--dropdown-option-color);
 }
 
-/* Button field */
-.btn.btn-dark {
-    background: var(--button-bg) !important;
-    color: var(--button-color) !important;
-    border: 2px solid var(--button-border) !important;
-    font-size: 16px;
-	line-height: 24px;
-	text-transform: uppercase;
-	font-weight: 700;
-    padding: 13px 50px 13px 30px !important;
-    border-radius: 0 !important;
-    transition: all 0.2s ease;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	-mx-transition: all 0.2s ease;
-}
-.btn.btn-dark:hover, .btn.btn-dark:focus, .btn.btn-dark:active {
-    background: var(--button-active-bg) !important;
-    color: var(--button-active-color) !important;
-    border: 2px solid var(--button-active-border) !important;
-    transition: all 0.2s ease;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	-mx-transition: all 0.2s ease;
-}
-
 
 /* Form animation */
 
