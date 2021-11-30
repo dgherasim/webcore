@@ -3,3 +3,8 @@
 :root {
   --form-font-family: 'Poppins', sans-serif;
 }
+
+/* Main Styles */
+#_builder-form * {
+	font-family: var(--form-font-family);
+}
