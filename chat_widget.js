@@ -73,7 +73,7 @@ function TextWidget() {
 			'              </div>',
 			'            </form>',
 			'            <br>',
-			'            <p class="small-text">Your information is 100% secure.',
+			'            <p class="small-text">100% safe and secure. We will never share or sell your information. Rates may apply.',
 			'              Rates apply.</p>',
 			// '            <div class="powered-by">',
 			// '               <a href="http://www.gohighlevel.com/?utm_source=text-widget&utm_medium=poweredby&utm_campaign=poweredby" target="_blank">',
