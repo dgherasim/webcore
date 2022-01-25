@@ -84,7 +84,7 @@ function TextWidget() {
 			'          <div class="hl_text-widget--thankyou">',
 			'            <div class="hl_text-widget--heading">',
 			'              <h1>Thank You!</h1>',
-			'              <p>Someone from our team will reply to you shortly.</p>',
+			'              <p>Someone from our team will get back to you shortly.</p>',
 			'            </div>',
 			'            <p class="smiley">&#x1F60A;</p>',
 			'            <div class="text-center">',
