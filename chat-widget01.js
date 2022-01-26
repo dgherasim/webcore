@@ -73,7 +73,7 @@ function TextWidget() {
 			'              </div>',
 			'            </form>',
 			'            <br>',
-			'            <p class="small-text">By submitting you agree to receive e-mails from our support team.',
+			'            <p class="small-text">By submitting you agree to receive e-mails from Webcore Support.',
 			'              Rates may be applied.</p>',
 			// '            <div class="powered-by">',
 			// '               <a href="http://www.gohighlevel.com/?utm_source=text-widget&utm_medium=poweredby&utm_campaign=poweredby" target="_blank">',
