@@ -1,0 +1,1 @@
+var intro = document.getElementsByClassName(‘div.w-full.flex.flex-row.items-center.justify-start.px-3.py-2.hl_quick-actions-item.cursor-pointer.rounded-sm.hover:bg-gray-50.hover:border-gray-300.hover:border-solid.hover:border-2.hover:box-border’); intro.setAttribute(‘id’, ‘quick-create-help-guide-v2’)
