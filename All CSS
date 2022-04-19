@@ -1,0 +1,401 @@
+/* Login Theme */
+
+@import url('https://msg.everypages.com/ghl-login/logintheme-b.css');
+
+:root { /* this overrides the default colors in the base css */
+	--main-body-bg: #ffffff;
+	--main-body-image: url('https://getwebcore.com/wp-content/uploads/2022/02/ad69e2c0419919e6a6edfc1bd991eda6-2.png');
+	--main-login-bg: #002a34;
+	--login-logo: url('https://getwebcore.com/wp-content/uploads/2022/02/webcore-logo-new-1.png');
+	--login-heading-color: #ffffff;
+	--login-input-color: #ffffff;
+    --login-input-bg: transparent;
+	--login-input-border: #eeeeee;
+	--login-error-color: #ffffff;
+	--login-forgot-pass-color: #ffffff;
+	--login-button-bg: #104e5d;
+	--login-button-color: #ffffff;
+	--login-button-hover-bg: #1e6272;
+	--login-button-hover-color: #ffffff;
+	--login-foot-note-color: #ffffff;
+	--login-foot-note-link-color: #ffffff;
+/* Extra Footer and/or Header instructions. Leave blank for none. */
+    --header-note:'Having trouble logging in or resetting your password? Contact support@webcoreapp.com'; 
+    --header-note-color:#fff;
+    --footer-note:'Having trouble logging in or resetting your password? Contact support@webcoreapp.com';
+    --footer-note-color:#fff;    
+}
+.hl_login--body .card .card-body .foot-note {
+    display: none !important;
+}
+
+
+/*CRM*/
+
+/* Left Navigation - Agency */
+
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover {
+    background-color: #104e5d !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover {
+    background-color: #104e5d !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 #backButtonv2 {
+    background-color: #104e5d !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 {
+    background-color: #104e5d !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 .hl_collapse-button {
+    background: #fff;
+    color: #1b5a69;
+}
+
+/* Left Navigation - Subaccount */
+
+div.flex.flex-col.flex-grow.pt-3.pb-2.h-screen.overflow-hidden {
+    background-color: #002a34 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 {
+    background-color: #104e5d !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover {
+    background-color: #104e5d !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active.divider, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover.divider {
+    background-color: #002a34 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover {
+    background-color: #104e5d !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active.divider {
+    background-color: #002a34 !important;
+}
+.sidebar-v2-location #sidebar-v2 .default-bg-color, .sidebar-v2-location #sidebar-v2.default-bg-color {
+    background-color: #002a34 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 #backButtonv2 {
+    background-color: #104e5d !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_collapse-button {
+    background: #fff;
+    color: #1b5a69;
+}
+
+
+/*Buttons*/
+
+.hl-btn {
+    background-color: #104e5d !important;
+    color: #fff !important;
+    border-color: #104e5d !important;
+}
+
+.hl-btn:hover {
+    background-color: #1e6272 !important;
+    color: #fff !important;
+    border-color: #1e6272 !important;
+}
+
+.focus\:ring-2:focus {
+    outline: none !important;
+    fill: #002a34 !important;
+}
+
+.focus\:ring-2:focus {
+    --tw-ring-shadow: #002a34;
+}
+
+.btn.btn-yellow {
+    background-color: #104e5d !important;
+    color: #fff !important;
+}
+
+.btn.btn-green-dark {
+    background-color: #104e5d !important;
+    color: #fff !important;
+}
+
+.hl_triggers--item .triggers_actions .btn-group .btn {
+    background-color: #104e5d !important;
+    color: #fff !important;
+}
+
+.hl_triggers--item .triggers_actions .btn-group .btn:hover {
+    background-color: #1e6272 !important;
+    color: #fff !important;
+}
+
+.hl_triggers--item .triggers_actions .btn-group .btn:active {
+    background-color: #1e6272 !important;
+    color: #fff !important;
+}
+
+.hl_triggers--item .triggers_actions .btn-group .btn:focus {
+    background-color: #1e6272 !important;
+    color: #fff !important;
+}
+
+.icon-arrow-left-2 {
+    color: #104e5d !important;
+}
+
+.modal-content--service .service-step.active .icon-wrapper {
+    background-color: #104e5d !important;
+}
+
+.modal-content--service .service-step.active .icon-wrapper {
+    background-color: #104e5d !important;
+}
+
+body[data-theme=default-dark-v1] .btn.btn-primary {
+    background-color: #104e5d !important;
+    color: #fff !important;
+}
+
+body[data-theme=default-dark-v1] .btn.btn-primary:hover {
+    background-color: #1e6272 !important;
+    color: #fff !important;
+}
+
+.btn.btn-link {
+  color: #104e5d !important;
+}
+
+.sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem.active {
+    color: #104e5d !important;
+    border-color: #104e5d !important;
+}
+
+ul.header-ul li.active a[data-v-0c581c96] {
+    border-color: #104e5d !important;
+}
+
+#dashboard .hl_tasks-list button.dropdown-toggle {
+    font-weight: 500 !important;
+    background-color: #fff !important;
+    color: #56666d !important;
+}
+
+.nav.nav-tabs .nav-link.active {
+    color: #104e5d !important;
+    border-color: #104e5d !important;
+}
+
+.nav.nav-tabs .nav-link:hover {
+    color: #104e5d !important;
+}
+
+.hl_marketing--nav li.active a {
+    color: #104e5d !important;
+    border-color: #104e5d !important;
+}
+
+#pg-calendar-v2__btn--reset-page {
+    background-color: #104e5d !important;
+    color: #fff !important;
+}
+
+#pg-calendar-v2__btn--reset-page:hover {
+    background-color: #1e6272 !important;
+    color: #fff !important;
+}
+
+/*Dashboard*/
+
+path.highcharts-point.highcharts-color-0 {
+  fill: #5b94a2;
+}
+
+path.highcharts-point.highcharts-color-1 {
+  fill: #3f7582;
+}
+
+path.highcharts-point.highcharts-color-2 {
+  fill: #265762;
+}
+
+path.highcharts-point.highcharts-color-3 {
+  fill: #204d58;
+}
+
+path.highcharts-point.highcharts-color-4 {
+  fill: #143a42;
+}
+
+path.highcharts-point.highcharts-color-5 {
+  fill: #0a252b;
+}
+
+path.highcharts-point.highcharts-color-6 {
+  fill: #05181c;
+}
+
+path.highcharts-point.highcharts-color-7 {
+  fill: #021114;
+}
+
+path.highcharts-point {
+    fill: #000;
+}
+
+rect.highcharts-point {
+  fill: #5b94a2;
+}
+
+div.pending-task-value {
+  background-color: #5b94a2 !important
+}
+
+.hl_dashboard--conversion-rate .bottom-stats li:first-child span, .hl_dashboard--matters-added .bottom-stats li:first-child span, .hl_dashboard--pipeline-value .bottom-stats li:first-child span {
+    color: #5b94a2 !important;
+}
+
+.hl_dashboard--conversion-rate .bottom-stats li:nth-child(2) span, .hl_dashboard--matters-added .bottom-stats li:nth-child(2) span, .hl_dashboard--pipeline-value .bottom-stats li:nth-child(2) span {
+    color: #265762 !important;
+}
+
+.hl_dashboard--conversion-rate .bottom-stats li:nth-child(3) span, .hl_dashboard--matters-added .bottom-stats li:nth-child(3) span, .hl_dashboard--pipeline-value .bottom-stats li:nth-child(3) span {
+    color: #05181c !important;
+}
+
+.hdctrl {
+    background-color: #104e5d !important;
+    color: #fff !important;
+}
+
+.avatar_img {
+    background-color: #104e5d !important;
+    color: #fff !important;
+}
+
+.hl_opportunities-item {
+    border-top: 3px solid #104e5d !important;
+}
+
+a.btn.btn-success {
+  background-color: #104e5d;
+}
+
+button.btn.btn-success.btn-block.cmp-form-builder-sidebar__btn--integrate {
+  background-color: #104e5d;
+}
+
+.page-item.active .page-link {
+    background-color: #104e5d !important;
+    border-color: #104e5d !important;
+}
+
+:root {
+    --sidebar-bg-color: #0c2d3f;
+    --sidebar-parent-active-li-bg-color: rgba(24,139,246,0.1);
+    --sidebar-li-color: #fff;
+    --sidebar-collapse-li-bg-color: #103855;
+    --custom-link-color: #104e5d;
+    --custom-primary: #104e5d;
+    --custom-primary-border-color: rgba(24,139,246,0.1);
+    --custom-yellow-color: #f60;
+    --custom-yellow-active: #f90;
+    --custom-yellow-border-color: #f60;
+    --button-icon-color: #fff;
+    --loader-color: #0c2d3f;
+    --login--header-border-color: rgba(144,164,174,0.2);
+    --settings-tab-link-color: #607179;
+}
+
+.hl_triggers--item .triggers_name h4 {
+    color: #104e5d !important;
+}
+
+#globalSearchOpener, #quickActions {
+    background-color: #104e5d !important;
+    border: none !important;
+}
+
+ul.header-ul li.active a[data-v-045e8b1d] {
+    border-color: #104e5d !important;
+}
+
+ul.header-ul li.active a[data-v-e8a34476] {
+    border-color: #104E5D !important;
+}
+
+ul.header-ul li.active a[data-v-28e047cc] {
+    border-color: #104E5D !important;
+}
+
+.fa-address-card {
+  padding-top: 1.75px !important;
+  font-size: 1.14rem;
+}
+
+.fa-chart-bar {
+  padding-top: 1.8px !important;
+  padding-right: 0.5px !important;
+  font-size: 1.14rem;
+}
+
+.fa-list {
+    padding-top: 1.75px !important;
+    font-size: 1.06rem;
+}
+
+.fa-clipboard {
+    padding-top: 0px !important;
+    font-size: 1.21rem;
+}
+
+.fa-folder-open {
+  padding-top: 0.7px !important;
+  font-size: 1.15rem;
+}
+
+.fa-external-link-alt {
+  padding-top: 1.6px !important;
+  font-size: 1.02rem;
+}
+
+.fa-clone {
+  padding-top: 1.6px !important;
+  font-size: 1.05rem;
+}
+
+#yext_promo_banner {
+    display: none !important;
+}
+
+.hl_text-widget--btn {
+    background-color: #104e5d !important;
+}
+
+#blurControl {
+    display:none !important;
+}
+
+#sb_settings:hover {
+    background-color: #104e5d !important;
+}
+
+/* HELP GUIDE BUTTON CSS */
+	#start-help-guide img { opacity: 0 !important; }
+	#start-help-guide .avatar_img {
+		width: 160px !important; 
+		height: 45px !important;
+        margin-top: 5.5px !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+        background-color: #fff !important;
+		background: url('https://storage.googleapis.com/msgsndr/PsCsn7zxA1CA2UIOgl5t/media/61e5c2313c4525d9a175c343.png');
+	}
+/* HELP GUIDE BUTTON CSS */
