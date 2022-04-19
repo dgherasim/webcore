@@ -1,0 +1,394 @@
+/* Login Theme */
+
+@import url('https://msg.everypages.com/ghl-login/logintheme-b.css');
+
+:root { /* this overrides the default colors in the base css */
+	--main-body-bg: #ffffff;
+	--main-body-image: url('https://getwebcore.com/wp-content/uploads/2022/02/ad69e2c0419919e6a6edfc1bd991eda6-2.png');
+	--main-login-bg: #16262e;
+	--login-logo: url('https://getwebcore.com/wp-content/uploads/2022/02/webcore-logo-new-1.png');
+	--login-heading-color: #ffffff;
+	--login-input-color: #ffffff;
+    --login-input-bg: transparent;
+	--login-input-border: #eeeeee;
+	--login-error-color: #ffffff;
+	--login-forgot-pass-color: #ffffff;
+	--login-button-bg: #2e4756;
+	--login-button-color: #ffffff;
+	--login-button-hover-bg: #385362;
+	--login-button-hover-color: #ffffff;
+	--login-foot-note-color: #ffffff;
+	--login-foot-note-link-color: #ffffff;
+/* Extra Footer and/or Header instructions. Leave blank for none. */
+    --header-note:'Having trouble logging in or resetting your password? Contact support@webcoreapp.com'; 
+    --header-note-color:#fff;
+    --footer-note:'Having trouble logging in or resetting your password? Contact support@webcoreapp.com';
+    --footer-note-color:#fff;    
+}
+.hl_login--body .card .card-body .foot-note {
+    display: none !important;
+}
+
+
+/*CRM*/
+
+/* Left Navigation - Agency */
+
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 #backButtonv2 {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 .hl_collapse-button {
+    background: #fff;
+    color: #2e4756;
+}
+
+/* Left Navigation - Subaccount */
+
+div.flex.flex-col.flex-grow.pt-3.pb-2.h-screen.overflow-hidden {
+    background-color: #16262e !important;
+}
+
+.sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active.divider, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover.divider {
+    background-color: #16262e !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active.divider {
+    background-color: #16262e !important;
+}
+.sidebar-v2-location #sidebar-v2 .default-bg-color, .sidebar-v2-location #sidebar-v2.default-bg-color {
+    background-color: #16262e !important;
+}
+
+.sidebar-v2-location #sidebar-v2 #backButtonv2 {
+    background-color: #2e4756 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_collapse-button {
+    background: #fff;
+    color: #2e4756;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover {
+    background-color: #2e4756 !important;
+}
+
+.fa-address-card {
+  padding-top: 1.75px !important;
+  font-size: 1.14rem;
+}
+
+.fa-chart-bar {
+  padding-top: 1.8px !important;
+  padding-right: 0.5px !important;
+  font-size: 1.14rem;
+}
+
+.fa-list {
+    padding-top: 1.75px !important;
+    font-size: 1.06rem;
+}
+
+.fa-clipboard {
+    padding-top: 0px !important;
+    font-size: 1.21rem;
+}
+
+.fa-folder-open {
+  padding-top: 0.7px !important;
+  font-size: 1.15rem;
+}
+
+.fa-external-link-alt {
+  padding-top: 1.6px !important;
+  font-size: 1.02rem;
+}
+
+.fa-clone {
+  padding-top: 1.6px !important;
+  font-size: 1.05rem;
+}
+
+#globalSearchOpener, #quickActions {
+    background-color: #2e4756 !important;
+    border: none !important;
+}
+
+#yext_promo_banner {
+    display: none !important;
+}
+
+
+/*Buttons*/
+
+.hl-btn {
+    background-color: #2e4756 !important;
+    color: #fff !important;
+    border-color: #2e4756 !important;
+}
+
+.hl-btn:hover {
+    background-color: #385362 !important;
+    color: #fff !important;
+    border-color: #385362 !important;
+}
+
+.focus\:ring-2:focus {
+    outline: none !important;
+    fill: #16262e !important;
+}
+
+.focus\:ring-2:focus {
+    --tw-ring-shadow: #16262e;
+}
+
+.btn.btn-yellow {
+    background-color: #2e4756 !important;
+    color: #fff !important;
+}
+
+.btn.btn-green-dark {
+    background-color: #2e4756 !important;
+    color: #fff !important;
+}
+
+.hl_triggers--item .triggers_actions .btn-group .btn {
+    background-color: #2e4756 !important;
+    color: #fff !important;
+}
+
+.hl_triggers--item .triggers_actions .btn-group .btn:hover {
+    background-color: #385362 !important;
+    color: #fff !important;
+}
+
+.hl_triggers--item .triggers_actions .btn-group .btn:active {
+    background-color: #385362 !important;
+    color: #fff !important;
+}
+
+.hl_triggers--item .triggers_actions .btn-group .btn:focus {
+    background-color: #385362 !important;
+    color: #fff !important;
+}
+
+.icon-arrow-left-2 {
+    color: #2e4756 !important;
+}
+
+.modal-content--service .service-step.active .icon-wrapper {
+    background-color: #2e4756 !important;
+}
+
+.modal-content--service .service-step.active .icon-wrapper {
+    background-color: #2e4756 !important;
+}
+
+body[data-theme=default-dark-v1] .btn.btn-primary {
+    background-color: #2e4756 !important;
+    color: #fff !important;
+}
+
+body[data-theme=default-dark-v1] .btn.btn-primary:hover {
+    background-color: #385362 !important;
+    color: #fff !important;
+}
+
+.btn.btn-link {
+  color: #2e4756 !important;
+}
+
+.sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem.active {
+    color: #2e4756 !important;
+    border-color: #2e4756 !important;
+}
+
+ul.header-ul li.active a[data-v-0c581c96] {
+    border-color: #2e4756 !important;
+}
+
+#dashboard .hl_tasks-list button.dropdown-toggle {
+    font-weight: 500 !important;
+    background-color: #fff !important;
+    color: #56666d !important;
+}
+
+.nav.nav-tabs .nav-link.active {
+    color: #2e4756 !important;
+    border-color: #2e4756 !important;
+}
+
+.nav.nav-tabs .nav-link:hover {
+    color: #2e4756 !important;
+}
+
+.hl_marketing--nav li.active a {
+    color: #2e4756 !important;
+    border-color: #2e4756 !important;
+}
+
+#pg-calendar-v2__btn--reset-page {
+    background-color: #2e4756 !important;
+    color: #fff !important;
+}
+
+#pg-calendar-v2__btn--reset-page:hover {
+    background-color: #385362 !important;
+    color: #fff !important;
+}
+
+/*Dashboard*/
+
+path.highcharts-point.highcharts-color-0 {
+  fill: #81a1b5;
+}
+
+path.highcharts-point.highcharts-color-1 {
+  fill: #66879a;
+}
+
+path.highcharts-point.highcharts-color-2 {
+  fill: #56778b;
+}
+
+path.highcharts-point.highcharts-color-3 {
+  fill: #456375;
+}
+
+path.highcharts-point.highcharts-color-4 {
+  fill: #2e4756;
+}
+
+path.highcharts-point.highcharts-color-5 {
+  fill: #223946;
+}
+
+path.highcharts-point.highcharts-color-6 {
+  fill: #203643;
+}
+
+path.highcharts-point.highcharts-color-7 {
+  fill: #1d3340;
+}
+
+path.highcharts-point {
+    fill: #000;
+}
+
+rect.highcharts-point {
+  fill: #2e4756;
+}
+
+div.pending-task-value {
+  background-color: #2e4756 !important
+}
+
+.hl_dashboard--conversion-rate .bottom-stats li:first-child span, .hl_dashboard--matters-added .bottom-stats li:first-child span, .hl_dashboard--pipeline-value .bottom-stats li:first-child span {
+    color: #48616f !important;
+}
+
+.hl_dashboard--conversion-rate .bottom-stats li:nth-child(2) span, .hl_dashboard--matters-added .bottom-stats li:nth-child(2) span, .hl_dashboard--pipeline-value .bottom-stats li:nth-child(2) span {
+    color: #2e4756 !important;
+}
+
+.hl_dashboard--conversion-rate .bottom-stats li:nth-child(3) span, .hl_dashboard--matters-added .bottom-stats li:nth-child(3) span, .hl_dashboard--pipeline-value .bottom-stats li:nth-child(3) span {
+    color: #16262e !important;
+}
+
+.hdctrl {
+    background-color: #2e4756 !important;
+    color: #fff !important;
+}
+
+.avatar_img {
+    background-color: #2e4756 !important;
+    color: #fff !important;
+}
+
+.hl_opportunities-item {
+    border-top: 3px solid #2e4756 !important;
+}
+
+a.btn.btn-success {
+  background-color: #2e4756;
+}
+
+button.btn.btn-success.btn-block.cmp-form-builder-sidebar__btn--integrate {
+  background-color: #2e4756;
+}
+
+.page-item.active .page-link {
+    background-color: #2e4756 !important;
+    border-color: #2e4756 !important;
+}
+
+
+.hl_triggers--item .triggers_name h4 {
+    color: #2e4756 !important;
+}
+
+ul.header-ul li.active a[data-v-045e8b1d] {
+    border-color: #2e4756 !important;
+}
+
+ul.header-ul li.active a[data-v-e8a34476] {
+    border-color: #2e4756 !important;
+}
+
+ul.header-ul li.active a[data-v-28e047cc] {
+    border-color: #2e4756 !important;
+}
+
+
+.hl_text-widget--btn {
+    background-color: #2e4756 !important;
+}
+
+.active > a {
+    border-color: #2e4756 !important;
+}
+
+#blurControl {
+    display:none !important;
+}
+
+/* HELP GUIDE BUTTON CSS */
+	#start-help-guide img { opacity: 0 !important; }
+	#start-help-guide .avatar_img {
+		width: 160px !important; 
+		height: 45px !important;
+        margin-top: 5.5px !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+        background-color: #fff !important;
+		background: url('https://storage.googleapis.com/msgsndr/PsCsn7zxA1CA2UIOgl5t/media/61e5c2313c4525d9a175c343.png');
+	}
+/* HELP GUIDE BUTTON CSS */
