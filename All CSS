@@ -50,6 +50,10 @@
     background-color: #104e5d !important;
 }
 
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover {
+    background-color: #104e5d !important;
+}
+
 .sidebar-v2-agency #sidebar-v2 .hl_collapse-button {
     background: #fff;
     color: #1b5a69;
@@ -90,7 +94,56 @@ div.flex.flex-col.flex-grow.pt-3.pb-2.h-screen.overflow-hidden {
 
 .sidebar-v2-location #sidebar-v2 .hl_collapse-button {
     background: #fff;
-    color: #1b5a69;
+    color: #104e5d;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover {
+    background-color: #104e5d !important;
+}
+
+.fa-address-card {
+  padding-top: 1.75px !important;
+  font-size: 1.14rem;
+}
+
+.fa-chart-bar {
+  padding-top: 1.8px !important;
+  padding-right: 0.5px !important;
+  font-size: 1.14rem;
+}
+
+.fa-list {
+    padding-top: 1.75px !important;
+    font-size: 1.06rem;
+}
+
+.fa-clipboard {
+    padding-top: 0px !important;
+    font-size: 1.21rem;
+}
+
+.fa-folder-open {
+  padding-top: 0.7px !important;
+  font-size: 1.15rem;
+}
+
+.fa-external-link-alt {
+  padding-top: 1.6px !important;
+  font-size: 1.02rem;
+}
+
+.fa-clone {
+  padding-top: 1.6px !important;
+  font-size: 1.05rem;
+}
+
+#globalSearchOpener, #quickActions {
+    background-color: #104e5d !important;
+    border: none !important;
+}
+
+#yext_promo_banner {
+    display: none !important;
 }
 
 
@@ -297,30 +350,9 @@ button.btn.btn-success.btn-block.cmp-form-builder-sidebar__btn--integrate {
     border-color: #104e5d !important;
 }
 
-:root {
-    --sidebar-bg-color: #0c2d3f;
-    --sidebar-parent-active-li-bg-color: rgba(24,139,246,0.1);
-    --sidebar-li-color: #fff;
-    --sidebar-collapse-li-bg-color: #103855;
-    --custom-link-color: #104e5d;
-    --custom-primary: #104e5d;
-    --custom-primary-border-color: rgba(24,139,246,0.1);
-    --custom-yellow-color: #f60;
-    --custom-yellow-active: #f90;
-    --custom-yellow-border-color: #f60;
-    --button-icon-color: #fff;
-    --loader-color: #0c2d3f;
-    --login--header-border-color: rgba(144,164,174,0.2);
-    --settings-tab-link-color: #607179;
-}
 
 .hl_triggers--item .triggers_name h4 {
     color: #104e5d !important;
-}
-
-#globalSearchOpener, #quickActions {
-    background-color: #104e5d !important;
-    border: none !important;
 }
 
 ul.header-ul li.active a[data-v-045e8b1d] {
@@ -328,63 +360,24 @@ ul.header-ul li.active a[data-v-045e8b1d] {
 }
 
 ul.header-ul li.active a[data-v-e8a34476] {
-    border-color: #104E5D !important;
+    border-color: #104e5d !important;
 }
 
 ul.header-ul li.active a[data-v-28e047cc] {
-    border-color: #104E5D !important;
+    border-color: #104e5d !important;
 }
 
-.fa-address-card {
-  padding-top: 1.75px !important;
-  font-size: 1.14rem;
-}
-
-.fa-chart-bar {
-  padding-top: 1.8px !important;
-  padding-right: 0.5px !important;
-  font-size: 1.14rem;
-}
-
-.fa-list {
-    padding-top: 1.75px !important;
-    font-size: 1.06rem;
-}
-
-.fa-clipboard {
-    padding-top: 0px !important;
-    font-size: 1.21rem;
-}
-
-.fa-folder-open {
-  padding-top: 0.7px !important;
-  font-size: 1.15rem;
-}
-
-.fa-external-link-alt {
-  padding-top: 1.6px !important;
-  font-size: 1.02rem;
-}
-
-.fa-clone {
-  padding-top: 1.6px !important;
-  font-size: 1.05rem;
-}
-
-#yext_promo_banner {
-    display: none !important;
-}
 
 .hl_text-widget--btn {
     background-color: #104e5d !important;
 }
 
-#blurControl {
-    display:none !important;
+.active > a {
+    border-color: #104e5d !important;
 }
 
-#sb_settings:hover {
-    background-color: #104e5d !important;
+#blurControl {
+    display:none !important;
 }
 
 /* HELP GUIDE BUTTON CSS */
